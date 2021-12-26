@@ -1,0 +1,406 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Genericcoin</title>
+        <script src="https://kit......js" crossorigin="frees"></script>  {go to font awesome signup get a link paste this here}
+    </head>
+    <body>
+        <section class="menubar">
+          <div class="navbar">
+              <ul>
+               "<img src="Saved Pictures/images~2.png">
+                  <li><a href="#">home</a></li>
+                  <li><a href="#">developers</a></li>
+                  <li><a href="#">enterprise</a></li>
+                  <li><a href="#">connect</a></li>
+              </ul>
+          </div>
+        </section>
+        <section class="home">
+            <div class="home-container">
+                <h1></h1>
+                <img src="Saved Pictures/t2.jpg">
+            </div>
+        </section>
+        <section class="developers">
+            <div class="developers-container">
+            <h2>developers</h2>
+            </div>
+        </section>
+        <section class="enterprise">
+            <div class="enterprise-container">
+             <h3>enterprise</h3>
+             <div class=" product container">
+                <div class="product-top">
+                   <h1 class="product-title">products</h1>
+                  <div class="product-bottom">
+                      <div class="basket">
+                          <ul>
+                              <li><a href="#">cart</a></li>
+                          <i class="fas fa-shopping-cart"></i>
+                          </ul>
+                      </div>
+                  <div class="payments"> 
+                      <div class=" upi-payments">
+                          <ul>
+                              <li><a href="#">UPI</a></li>
+                          <i class="fab fa-amazon-pay"></i>
+                          <i class="fab fa-claro-pay"></i>
+                          <i class="fab fa-apple-pay"></i>
+                          <i class="fab fa-google-pay"></i>
+                          <i class="fab fa-alipay"></i>
+                          <i class="fab fa-cc-paypal"></i>
+                          </ul>
+                      </div>
+                      <div class="credit-payments">
+                          <ul>
+                              <li><a href="#">credit-card</a></li>
+                          <i class="fab fa-cc-visa"></i>
+                          <i class="fab fa-cc-mastercard"></i>
+                          </ul>
+                      </div>
+                      <div class="debit-payments">
+                          <ul>
+                              <li><a href="#">debit-card</a></li>
+                          <i class="fab fa-cc-amex"></i>
+                          <i class="fab fa-cc-claro"></i>
+                          </ul>
+                      </div>
+                      <div class="crypto-payments">
+                          <ul>
+                              <li><a href="#">crypto</a></li>
+                          <i class="fab fa-bitcoin"></i>
+                          <i class="fab fa-ethereum"></i>
+                          <i class="fab fa-caxton"></i>
+                          </ul>
+                      </div>
+                  </div>    
+                  </div>
+                </div>
+            </div>
+        </section>
+          <section class="ride">
+              <div class="ride-container">
+              <h4>ride</h4>
+            </div>
+          </section>
+        <section class="connect">
+            <div class=" connect-container">
+                <div class="connect-top">
+                   <h1 class="connect-title">connect</h1> 
+                    <div class="connect-bottom">
+                      <ul>
+                       <i class="fab fa-facebook-f"></i>
+                       <i class="fab fa-instagram"></i>
+                       <i class="fab fa-twitter"></i>
+                       <i class="fab fa-discord"></i>
+                       <i class="fab fa-youtube"></i>
+                      </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <style>
+            *{
+                padding: 0;
+                margin: 0;
+                font-family: sans-serif;
+            }
+            .navbar container{
+         background-position: fixed;
+         background-size: cover;
+         background-color: whitesmoke;
+     }
+     .navbar{
+           background-color: black;
+           align-items: center;
+           display: flex;
+           align-items: center;
+     }
+     .navbar ul li{
+         display: inline-block;
+         justify-content: space-between;
+         padding: 20px;
+         position: relative;
+     }
+     .navbar ul li a{
+        text-decoration:none;
+        color: white;
+        text-transform: uppercase;
+     }
+     .navbar ul li ::after{
+         content: '';
+         height: 2px;
+         width: 0%;
+         background: white;
+         position: absolute;
+         left: 0;
+         bottom: 16px;
+         transition: 0.5s;
+     }
+     .navbar ul li :hover::after{
+         width: 100%;
+     }
+     
+     .banner ul  {
+         align-items: center;
+     }
+    
+    a{
+         text-decoration: none;
+     }
+     .home-container{
+         min-height: 100vh;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .home{
+         background-size: cover;
+         background-position:top center ;
+         position: relative ;
+     }
+     .home ::after{
+         content: '';
+         position: absolute;
+         left: 0;
+         top: 0;
+         height: 100%;
+         width: 100%;
+         background-color: white;
+         opacity: 7;
+         z-index: -1;
+     }
+     .home h1{
+         display: block;
+         width: fit-content;
+         font-size: 4rem;
+         position: relative;
+         color: black;
+     }
+     .home cta{
+         display: inline-block;
+         padding: 10px 34px;
+         color: crimson;
+         background-color: transparent;
+         border: 2px solid;
+         font-size: 2rem;
+         text-transform: uppercase;
+         letter-spacing: 1rem;
+         margin-top: 30px;
+         transition: 0.3s;
+         transition-property: background-color,color;
+     }
+     .home cta :hover{
+       color: white;
+       background-color: crimson;
+     }
+     a{
+         text-decoration: none;
+     }
+     .developers-container{
+         min-height: 100vh;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .developers{
+         background-size: cover;
+         background-position:top center ;
+         position: relative ;
+     }
+     .developers ::after{
+         content: '';
+         position: absolute;
+         left: 0;
+         top: 0;
+         height: 100%;
+         width: 100%;
+         background-color: whitesmoke;
+         opacity: 7;
+         z-index: -1;
+     }
+     .developers h1{
+         display: block;
+         width: fit-content;
+         font-size: 4rem;
+         position: relative;
+         color: black;
+     }
+     .developers cta{
+         display: inline-block;
+         padding: 10px 34px;
+         color: crimson;
+         background-color: transparent;
+         border: 2px solid;
+         font-size: 2rem;
+         text-transform: uppercase;
+         letter-spacing: 1rem;
+         margin-top: 30px;
+         transition: 0.3s;
+         transition-property: background-color,color;
+     }
+     .developers cta :hover{
+       color: white;
+       background-color: crimson;
+     }
+     a{
+         text-decoration: none;
+     }
+     .enterprise-container{
+         min-height: 100vh;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .enterprise{
+         background-size: cover;
+         background-position:top center ;
+         position: relative ;
+     }
+     .enterprise ::after{
+         content: '';
+         position: absolute;
+         left: 0;
+         top: 0;
+         height: 100%;
+         width: 100%;
+         background-color: white;
+         opacity: 7;
+         z-index: -1;
+     }
+     .enterprise h1{
+         display: block;
+         width: fit-content;
+         font-size: 4rem;
+         position: relative;
+         color: black;
+     }
+     .enterprise cta{
+         display: inline-block;
+         padding: 10px 34px;
+         color: crimson;
+         background-color: transparent;
+         border: 2px solid;
+         font-size: 2rem;
+         text-transform: uppercase;
+         letter-spacing: 1rem;
+         margin-top: 30px;
+         transition: 0.3s;
+         transition-property: background-color,color;
+     }
+     .enterprise cta :hover{
+       color: white;
+       background-color: crimson;
+     }
+     a{
+         text-decoration: none;
+     }
+     .ride-container{
+         min-height: 100vh;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .ride{
+         background-size: cover;
+         background-position:top center ;
+         position: relative ;
+     }
+     .img src{
+         background-size:cover ;
+     }
+     .ride ::after{
+         content: '';
+         position: absolute;
+         left: 0;
+         top: 0;
+         height: 100%;
+         width: 100%;
+         background-color: whitesmoke;
+         opacity: 7;
+         z-index: -1;
+     }
+     .ride h1{
+         display: block;
+         width: fit-content;
+         font-size: 4rem;
+         position: relative;
+         color: black;
+     }
+     .ride cta{
+         display: inline-block;
+         padding: 10px 34px;
+         color: crimson;
+         background-color: transparent;
+         border: 2px solid;
+         font-size: 2rem;
+         text-transform: uppercase;
+         letter-spacing: 1rem;
+         margin-top: 30px;
+         transition: 0.3s;
+         transition-property: background-color,color;
+     }
+     .ride cta :hover{
+       color: white;
+       background-color: crimson;
+     }
+     a{
+         text-decoration: none;
+     }
+     .connect-container{
+         min-height: 100vh;
+         width: 100%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .connect{
+         background-size: cover;
+         background-position:top center ;
+         position: relative ;
+     }
+     .connect ::after{
+         content: '';
+         position: absolute;
+         left: 0;
+         top: 0;
+         height: 100%;
+         width: 100%;
+         background-color: white;
+         opacity: 7;
+         z-index: -1;
+     }
+     .connect h1{
+         display: block;
+         width: fit-content;
+         font-size: 4rem;
+         position: relative;
+         color: black;
+     }
+     .connect cta{
+         display: inline-block;
+         padding: 10px 34px;
+         color: crimson;
+         background-color: transparent;
+         border: 2px solid;
+         font-size: 2rem;
+         text-transform: uppercase;
+         letter-spacing: 1rem;
+         margin-top: 30px;
+         transition: 0.3s;
+         transition-property: background-color,color;
+     }
+     .connect cta :hover{
+       color: white;
+       background-color: crimson;
+     }
+        </style>
+    </body>
+</html>
